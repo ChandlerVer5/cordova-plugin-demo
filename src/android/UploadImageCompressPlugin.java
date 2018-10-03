@@ -1,4 +1,4 @@
-package com.v7games.uploadimagecompress.plugin;
+package com.wjipet.demo;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;

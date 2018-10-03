@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.v7games.uploadimagecompress.plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-demo" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>UploadImageCompressPlugin</name>
         <js-module name="uploadImageCompressPlugin" src="www/UploadImageCompressPlugin.js">
             <clobbers target="cordova.plugins.UploadImageCompressPlugin" />
@@ -11,7 +11,7 @@
                 </feature>
             </config-file>
             <config-file parent="/*" target="AndroidManifest.xml" />
-            <source-file src="src/android/uploadImageCompressPlugin.java" target-dir="src/com/v7games/uploadimagecompress/plugin/UploadImageCompressPlugin" />
+            <source-file src="src/android/uploadImageCompressPlugin.java" target-dir="src/com/wjipet/demo" />
         </platform>
         <platform name="ios">
             <config-file parent="/*" target="config.xml">
